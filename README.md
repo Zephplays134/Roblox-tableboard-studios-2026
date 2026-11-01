@@ -1,11 +1,30 @@
-<div align="center">
+# Roblox Tableboard Studios — Project 2026 Status
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+React-based official status site for **Roblox Tableboard Studios**, developers of the cruise ship simulator **Project 2026**.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Live Status Tracker**: Real-time status cards indicating internal testing (`YES`), finalization phase (`NO`), and public release window (`TBA`).
+- **Release Window Countdown**: Accurate, drift-free countdown to December 31, 2026 with days, hours, minutes, and seconds.
+- **Updates Timeline**: Dated changelog tracking internal milestones and simulator progress.
+- **Major Systems Overview**: Breakdown of core systems (Revamp, Ship & Sailing, Elevator AI, Cabins & Decks, Dining & Activities, Safety Systems).
+- **Elevator AI Assistant**: Keyless, unlimited, fully free, and reliable in-house AI chatbot that answers questions about Project 2026, status updates, and simulator features.
+- **Responsive Theme**: Deep navy ocean theme with mobile-friendly adaptive layout.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- React 19
+- TypeScript
+- Vite
+
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+```bash
+npm run build
+```
